@@ -2,4 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    background-color: black;
+}
 
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+  
+.box {
+    animation: float 2s ease-in-out infinite;
+  }
+  
+
+@font-face {
+    font-family: 'cosmic'; /* Name to refer to the font */
+    src : url('./assets/Cosmic\ Vibrant.otf')
+  }
+
+.zero{
+    font-family: 'cosmic';
+}
+  
+.style{
+    word-spacing: 40px;
+    font-weight: 100;
+}
+
+a:hover{
+    border-bottom: 1px solid white ;
+    opacity: 1;
+}
