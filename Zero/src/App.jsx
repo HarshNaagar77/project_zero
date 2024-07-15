@@ -8,6 +8,7 @@ function App() {
     <>
     <div className='bg-zinc-800'>
       <Header />
+      <Header />
       <Home/>
     </div>
     </>
