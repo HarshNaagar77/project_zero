@@ -1,12 +1,13 @@
 import React from 'react';
 
-export default function About(){
+const About = () => {
   return (
-    <div>
+    <div className='bg-black-800'>
       <header className="relative w-full border-b bg-white pb-4">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2">
           <div className="inline-flex items-center space-x-2">
-            <span className="font-bold">Zero</span>
+            
+            <span className="font-bold">ZERO</span>
           </div>
           <div className="hidden lg:block">
             <ul className="inline-flex space-x-8">
@@ -41,7 +42,7 @@ export default function About(){
               type="button"
               className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
             >
-              Button text
+              LOGIN
             </button>
           </div>
           <div className="lg:hidden">
@@ -108,8 +109,9 @@ export default function About(){
               Bengaluru office
             </p>
             <p className="w-full text-base text-gray-700">Mon-Sat 9am to 5pm.</p>
-            <p className="w-full text-base text-gray-700">
-              207, Residency Layout, Bengaluru, Karnataka.
+            <p className="w-full text-sm text-gray-500">
+              292, 100 Feet Rd, Binnamangala, Hoysala Nagar, Indiranagar, Bengaluru,
+              Karnataka 560038
             </p>
           </div>
           <div className="flex flex-col space-y-3 md:w-2/4 lg:w-1/5">
@@ -125,13 +127,45 @@ export default function About(){
               strokeLinejoin="round"
               className="h-5 w-5"
             >
-              <path
-                d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
-              ></path>
-              <polyline points="7 10 12 15 17 10"></polyline>
-              <line x1="12" y1="15" x2="12" y2="3"></line>
+              <path d="M3 12h18"></path>
+              <path d="M3 6h18"></path>
+              <path d="M3 18h18"></path>
             </svg>
-            <p className="w-full text-xl font-semibold text-gray-900">Email</p>
-            <svg/>
-        <div/>
-    <div/>
+            <p className="w-full text-xl font-semibold text-gray-900">Email us</p>
+            <p className="w-full text-base text-gray-700">
+              Monday to Friday Expected
+            </p>
+            <p className="w-full text-sm text-gray-500">support@company.com</p>
+          </div>
+          <div className="flex flex-col space-y-3 md:w-2/4 lg:w-1/5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="h-5 w-5"
+            >
+              <path d="M22 4.01 12 14.01l-3-3"></path>
+              <path d="M22 4.01 12 14.01l-3-3"></path>
+              <path d="M2 20h20"></path>
+            </svg>
+            <p className="w-full text-xl font-semibold text-gray-900">
+              Submit a ticket
+            </p>
+            <p className="w-full text-base text-gray-700">
+              Response within 24 hours
+            </p>
+            <p className="w-full text-sm text-gray-500">Company support</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default About;
