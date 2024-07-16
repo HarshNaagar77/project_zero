@@ -1,9 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 body{
     background-color: black;
+    color: white;
 }
 
 @keyframes float {
@@ -34,4 +35,78 @@ body{
 a:hover{
     border-bottom: 1px solid white ;
     opacity: 1;
+}
+.div2text{
+  position: absolute;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  left: 50px;
+  top: 110vh;
+}
+
+.borders{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 150px;
+}
+
+.div2img{
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.b1{
+  rotate: -30deg;
+  top: 130vh;
+  left: 50%;
+  /* transition: all s; */
+}
+.b2{
+  rotate: -30deg;
+  top: 110vh;
+  left: 70%;
+  /* flex-direction: column-reverse; */
+}
+
+.div2head{
+  position: absolute;
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: -3px;
+  word-spacing: -1px;
+}
+
+span{
+  border-bottom: 2px solid black;
+}
+
+.home3{
+  height: 100vh;
+  /* background-color: white; */
+  width: 99vw;
+  margin-top: 400vh;
+  position: absolute;
+  display: none;
+}
+
+header{
+  z-index: 100;
+}
+/* 
+.b1:hover{
+  margin-top: -50px;
+  margin-left: -50px;
+} */
+
+.div2head:hover{
+  cursor: url('./assets/logo.png') , auto;
 }

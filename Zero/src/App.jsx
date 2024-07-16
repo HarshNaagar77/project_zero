@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Home from './components/Home';
+import Home3 from './components/Home3';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       {/* <Header /> */}
       <Home/>
+      {/* <Home3/> */}
     </div>
     </>
   );

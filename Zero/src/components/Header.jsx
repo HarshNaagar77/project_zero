@@ -1,23 +1,24 @@
 import React from 'react';
-import logo from '../assets/logo.png'
+import logo from '../assets/logo2.png'
 
 function Header() {
+  
   return (
-    <header className="bg-black p-4 fixed w-full mt-3">
+    <header className="bg-transparent p-4 fixed w-full mt-3">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         {/* <div className="text-white font-bold text-xl ">
           Logo
         </div> */}
         <div>
-          <img src={logo} alt="logo" className="w-[50px] h-[50px]"/>
+          <img src={logo} alt="logo" className="w-[50px] h-[50px] rounded-xl"/>
         </div>
 
         {/* Navigation Links */}
         <nav className="flex-1 flex ml-[30vw]  justify-between" >
-          <a href="#" className="text-white hover:text-gray-300">Home</a>
-          <a href="#" className="text-white hover:text-gray-300">Shop</a>
-          <a href="#" className="text-white hover:text-gray-300">About</a>
+          <a href="#" className=" hover:border-b-black transition-all">Home</a>
+          <a href="#" className=" hover:border-b-black transition-all">Shop</a>
+          <a href="#" className=" hover:border-b-black transition-all">About</a>
         </nav>
 
         {/* Empty div to balance flex layout */}
