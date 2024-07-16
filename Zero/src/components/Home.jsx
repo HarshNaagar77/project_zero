@@ -113,7 +113,7 @@ function Home() {
         </div>
 
         <div className='absolute bottom-5 left-[45vw] flex align-bottom'>
-          <div className='rotate-[270deg] mt-1 text-lg'>We have</div>
+          <div className='rotate-[270deg] mt-1 text-2xl'>We have</div>
           
           <div className='-ml-10 font-light'>
             <p className='border-b'>Customer focus</p>

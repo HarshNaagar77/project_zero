@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/logo2.png'
 import About from "./About"
+import { Link } from 'react-router-dom';
 
 function Header() {
   
@@ -17,9 +18,9 @@ function Header() {
 
         {/* Navigation Links */}
         <nav className="flex-1 flex ml-[30vw]  justify-between" >
-          <a href="#" className=" hover:border-b-black transition-all">Home</a>
+          <Link className=" hover:border-b-black transition-all" to="/">Home</Link>
           <a href="#" className=" hover:border-b-black transition-all">Shop</a>
-          <a href="/About" className=" hover:border-b-black transition-all">About</a>
+          <Link to= "/about" className=" hover:border-b-black transition-all">About</Link>
         </nav>
 
         {/* Empty div to balance flex layout */}
