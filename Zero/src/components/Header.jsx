@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../assets/logo2.png'
+import About from "./About"
 
 function Header() {
   
@@ -18,7 +19,7 @@ function Header() {
         <nav className="flex-1 flex ml-[30vw]  justify-between" >
           <a href="#" className=" hover:border-b-black transition-all">Home</a>
           <a href="#" className=" hover:border-b-black transition-all">Shop</a>
-          <a href="#" className=" hover:border-b-black transition-all">About</a>
+          <a href="/About" className=" hover:border-b-black transition-all">About</a>
         </nav>
 
         {/* Empty div to balance flex layout */}

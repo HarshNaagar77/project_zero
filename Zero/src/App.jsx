@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Home from './components/Home';
 import Home3 from './components/Home3';
+import About from './components/About';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       {/* <Header /> */}
       <Home/>
       {/* <Home3/> */}
+      <About/>
     </div>
     </>
   );
