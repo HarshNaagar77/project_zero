@@ -1,0 +1,28 @@
+.card{
+    position: absolute;
+    height: 400px;
+    width: 200px;
+    background-color: orange;
+    border-radius: 20px;
+    transition: all 1s;
+}
+.cards{
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    transition: all 1s;
+    
+}
+
+.card2{
+    background-color: wheat;
+    /* z-index: 5; */
+    rotate: 15deg;
+    transition: all 1s;
+}
+.card3{
+    background-color: rgb(176, 176, 234);
+    /* rotate: -25deg; */
+    transform: all 1s;
+}

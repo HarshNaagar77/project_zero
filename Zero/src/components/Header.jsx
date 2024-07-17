@@ -19,7 +19,7 @@ function Header() {
         {/* Navigation Links */}
         <nav className="flex-1 flex ml-[30vw]  justify-between" >
           <Link className=" hover:border-b-black transition-all" to="/">Home</Link>
-          <a href="#" className=" hover:border-b-black transition-all">Shop</a>
+          <Link to='/shop' className=" hover:border-b-black transition-all">Shop</Link>
           <Link to= "/about" className=" hover:border-b-black transition-all">About</Link>
         </nav>
 
