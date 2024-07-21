@@ -8,6 +8,7 @@ body {
     background-color: black;
     color: white;
     font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
 }
 
 @keyframes float {
@@ -92,14 +93,6 @@ span{
   border-bottom: 2px solid black;
 }
 
-.home3{
-  height: 100vh;
-  /* background-color: white; */
-  width: 99vw;
-  margin-top: 400vh;
-  position: absolute;
-  display: none;
-}
 
 header{
   z-index: 100;
@@ -110,6 +103,23 @@ header{
   margin-left: -50px;
 } */
 
-.div2head:hover{
-  cursor: url('./assets/logo.png') , auto;
+.page3{
+  display: flex;
+  position: absolute;
+  top: 200vh;
+}
+.scroll{
+  height: 100vh;
+  width: 100vw;
+  background: orange;
+}
+.scroll2{
+  height: 100vh;
+  width: 100vw;
+  background: rgb(49, 96, 8);
+}
+.scroll3{
+  height: 100vh;
+  width: 100vw;
+  background: rgb(0, 140, 255);
 }
