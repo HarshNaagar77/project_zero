@@ -103,15 +103,19 @@ header{
   margin-left: -50px;
 } */
 
-.page3{
-  display: flex;
+.main3{
+  /* display: flex; */
   position: absolute;
   top: 200vh;
 }
+.page3{
+  /* display: flex; */
+}
 .scroll{
   height: 100vh;
-  width: 100vw;
-  background: orange;
+  width: 300vw;
+  /* background: rgb(191,71,71);
+background: linear-gradient(90deg, rgba(191,71,71,1) 0%, rgba(149,255,186,1) 54%, rgba(65,61,243,1) 100%); */
 }
 .scroll2{
   height: 100vh;
