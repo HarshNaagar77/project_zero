@@ -1,12 +1,31 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger'; 
 import logo from '../assets/logo2.png'
-import About from "./About"
+// import About from "./About"
 import { Link } from 'react-router-dom';
 
 function Header() {
+
+  useEffect(() => {
+    var tl = gsap.timeline()
+    tl.to('header' , {
+      backgroundColor : 'white',
+      duration : 2 ,
+      scrollTrigger: {
+        trigger: '.div2',
+        start: 'top 10%',
+        end: '90% 90%',
+        // markers : true,
+        // scrub : true
+        scrub: true,
+      },
+    })
+
+  } , [])
   
   return (
-    <header className="bg-transparent p-4 fixed w-full mt-3">
+    <header className="bg-transparent p-4 fixed w-full pt-3">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         {/* <div className="text-white font-bold text-xl ">

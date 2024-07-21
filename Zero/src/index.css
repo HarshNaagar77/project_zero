@@ -106,10 +106,12 @@ header{
 .main3{
   /* display: flex; */
   position: absolute;
-  top: 200vh;
+  top: 200vh; 
+  color: black;
 }
 .page3{
   /* display: flex; */
+  color: black;
 }
 .scroll{
   height: 100vh;

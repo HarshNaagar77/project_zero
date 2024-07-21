@@ -10,8 +10,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 function Home() {
   useEffect(() => {
+    var tl = gsap.timeline()
     // Animation for background color change on scroll
-    const backgroundColorAnimation = gsap.to('body', {
+    const backgroundColorAnimation = tl.to('body', {
       backgroundColor: 'white',
       color: 'black',
       scrollTrigger: {
@@ -21,7 +22,7 @@ function Home() {
         scrub: true,
       },
     }); 
-    const jpg = gsap.to('.div2img', {
+    const jpg = tl.to('.div2img', {
       opacity:1 ,
       scrollTrigger: {
         trigger: 'body',
@@ -30,6 +31,43 @@ function Home() {
         scrub: true,
       },
     });
+    tl.from('.b2' ,{
+      y : 200 ,
+      duration : 2 ,
+      scrollTrigger: {
+        trigger: '.div2',
+        start: 'top 20%',
+        end: '90% 90%',
+        // markers : true,
+        // scrub : true
+        scrub: true,
+      },
+    })
+    .from('.b1' , {
+      y : 200 ,
+      duration : 2 ,
+      scrollTrigger: {
+        trigger: '.div2',
+        start: 'top 10%',
+        end: '90% 90%',
+        // markers : true,
+        // scrub : true
+        scrub: true,
+      },
+    })
+    .from('.div2head' , {
+      x : -200 ,
+      duration : 2 ,
+      scrollTrigger: {
+        trigger: '.div2',
+        start: 'top 10%',
+        end: '90% 90%',
+        // markers : true,
+        // scrub : true
+        scrub: true,
+      },
+    })
+ 
 
   }, []);
   return (

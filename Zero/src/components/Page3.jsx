@@ -8,13 +8,15 @@ function Page3() {
   useEffect(() => {
     // Animation for moving the page3 container to the left on scroll
     const bgscroll = gsap.to('.page3', {
+     backgroundColor : 'black',
+     color : 'white' ,
       x: '-200vw', // Adjust as needed for the amount of movement
       scrollTrigger: {
         trigger: '.main3',
         start: 'top top', // Trigger when page3 is at the top of the viewport
         end: 'bottom bottom', // End when the bottom of page3 hits the top of the viewport
         scrub: true,
-        markers: true,
+        // markers: true,
         pin:true
       },
     });

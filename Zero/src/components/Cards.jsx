@@ -38,13 +38,14 @@ export default function Cards() {
 
  useEffect(() => {
     const card = document.querySelector('.cards')
+    const body = document.querySelector('body')
     const main = document.querySelector('.maincard')
     const card1 = document.querySelector('.card1')
     const card2 = document.querySelector('.card2')
     const card3 = document.querySelector('.card3')
     const card4 = document.querySelector('.card4')
     const card5 = document.querySelector('.card5')
-    card.addEventListener('mouseover' , function(){
+    body.addEventListener('mouseover' , function(){
         card1.style.transform = 'rotate(50deg)' 
         card1.style.marginTop = "150px"
         card1.style.marginLeft = "300px"
