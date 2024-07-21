@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import div2img from '../assets/div2img1.jpeg'
+import div2img2 from '../assets/div2img2.jpeg'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -29,12 +31,61 @@ function Page3() {
 
   return (
     <div className="main3">
-    <div className='page3'>
-      <div className="scroll">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor modi maxime odio officia totam debitis ratione. Eius hic nostrum, ea incidunt dignissimos quam cupiditate! Iure aliquam neque magni impedit amet, repudiandae soluta, corrupti unde cumque fugiat porro accusamus, ipsa labore. Quam illum maiores accusamus provident, iure expedita qui ipsa deleniti ea quia consequuntur similique nulla exercitationem libero est minima excepturi adipisci nostrum molestiae aperiam optio quos sed perferendis. Eveniet sunt quisquam explicabo animi quod obcaecati, officiis reiciendis vitae illo, tenetur vel suscipit, distinctio neque nobis? Id cupiditate odio deleniti velit, blanditiis libero impedit autem beatae perferendis in, commodi facilis consequatur nesciunt soluta, veritatis fuga tempora voluptate corrupti mollitia nostrum tempore repudiandae ex modi. Assumenda eaque quia vel illo porro sunt ex nulla commodi nam, vitae magni in labore distinctio quidem hic minus aperiam provident eius fugit, maiores omnis asperiores? Accusamus dignissimos sapiente id autem cumque ad dolore dolor tenetur! Saepe laboriosam nostrum corrupti iusto ullam dignissimos molestias alias, dicta illum aliquam esse eum magnam enim at autem quidem? Tempore animi sequi mollitia fugit quo facere quam, aliquid maiores, distinctio minus alias qui non saepe est! Minima similique deserunt illum, quisquam, nostrum rerum quas impedit odit exercitationem officiis voluptatibus hic nisi rem officia quam ab soluta. Quo ipsa unde obcaecati reiciendis optio maiores consequatur nam harum iure, ratione cum, eveniet, quisquam delectus ad minus dolore eligendi beatae non! Pariatur deleniti nulla nobis ut dignissimos rerum at commodi quis. Repudiandae nulla dignissimos asperiores obcaecati at omnis eveniet et ex fuga vitae. Dolor, quos consequatur! Porro, officia. Similique totam labore earum dicta, eius quis, nulla exercitationem mollitia, quisquam fuga non consequuntur officia placeat omnis officiis voluptatum magnam quos repudiandae voluptatibus! Est quod numquam, obcaecati cum consequatur ipsa soluta iusto qui esse fugit vero officiis et eius quae, tenetur amet sequi debitis harum inventore corrupti velit! Itaque illo ipsam quasi, enim eius ut illum quis adipisci recusandae voluptate similique autem officia nobis asperiores saepe? Autem ipsa corrupti voluptatibus optio inventore assumenda harum expedita minus quibusdam aspernatur corporis reiciendis error rerum doloremque consectetur eveniet modi porro, aut odit animi asperiores a, odio ut! Dolores aliquam dicta perferendis maxime. Nemo eius, culpa quasi iusto sapiente itaque, eveniet veniam commodi a minima error quibusdam deleniti pariatur quaerat libero ea, architecto perspiciatis est cum sit vero neque dolore quo. Natus quis, laudantium ipsa, in facilis ab molestias rerum, neque nulla quae ipsum aliquid! Ab, dolorum. Fuga, ipsa nisi voluptatem eos maiores modi accusantium in vel provident doloremque molestias recusandae quisquam reprehenderit nesciunt ab. Veniam quibusdam voluptas mollitia, odio architecto saepe eaque iure. Consequatur mollitia, natus exercitationem, quaerat tenetur vel non fugit nemo quam, deserunt voluptas maxime dolores voluptate libero tempore. Reiciendis culpa ea sequi cum quas molestias suscipit! Assumenda molestiae perspiciatis sequi tenetur voluptatem quam incidunt iusto laboriosam esse explicabo, dolore animi eaque ratione laudantium fugit exercitationem, sit necessitatibus debitis veniam qui temporibus labore laborum. Quidem molestiae expedita recusandae quod aperiam dolore quam aspernatur, quaerat eum ab atque aliquid at et vitae. Doloremque hic iusto eum, beatae similique et, officia ut vero quisquam deleniti eligendi? Maiores distinctio eius, provident deleniti tempore perspiciatis neque ex culpa recusandae at? Consectetur dolore minus dolores quis blanditiis praesentium voluptas labore pariatur laudantium, facilis eius ex reprehenderit rerum laboriosam a dignissimos ipsum deleniti fuga tenetur saepe. Distinctio reiciendis, repellendus nobis corrupti quis adipisci ratione voluptatibus quas molestiae dignissimos odit excepturi quos harum, maiores ipsum necessitatibus exercitationem, consectetur nostrum. Nemo quod a non nostrum quidem recusandae quasi dolor rerum alias ab, assumenda ratione veritatis adipisci sed accusantium distinctio, neque libero nobis ipsum voluptate, mollitia iste. Perspiciatis dolor repellat consequatur, fuga temporibus enim similique cupiditate quisquam ex nihil consequuntur sit consectetur architecto fugit. Voluptate est eum tempora aperiam maiores aliquid, atque impedit at totam sint fugiat, esse officiis soluta deserunt aut accusamus ex cumque nam. Earum nam, vero ad exercitationem corporis culpa qui laboriosam amet excepturi illo modi dolor reprehenderit voluptas quia non totam minus voluptatem explicabo mollitia! Exercitationem, minus aperiam voluptatem laudantium dolorum quos! Vel, quos impedit. Dignissimos impedit iure accusamus sunt explicabo, sapiente vel a dolores et commodi magni totam ipsa repudiandae fuga quae quisquam harum? Sequi harum perferendis magnam ab hic cum, facere blanditiis, iusto alias eos dolor inventore numquam vitae odio id reiciendis nisi excepturi saepe aspernatur odit ratione deserunt nihil? Velit quaerat consectetur est rem id ipsum incidunt, magni ex atque? Eius dolore quidem unde ex. Odio fugit quae voluptatem nihil nam? Laudantium nihil provident eos incidunt suscipit impedit at alias culpa quis molestiae eaque, possimus earum est optio vero mollitia esse? Quia voluptatum harum, adipisci cupiditate reiciendis recusandae ad nam. Aliquam eligendi culpa maiores nemo debitis, ab fugit dignissimos alias error, eos ad? Dolores neque nesciunt at quisquam fugiat in debitis corrupti velit aut id atque repudiandae delectus enim doloribus aspernatur eaque, quidem consequatur quas dicta doloremque pariatur reiciendis maxime sunt? Minus assumenda blanditiis, animi nobis aliquid voluptatibus tempora repellendus tenetur exercitationem odio id provident at earum facere excepturi sapiente voluptas sequi quo, culpa, aperiam doloremque quia! Quam, fuga? Magnam enim beatae inventore sed distinctio earum veritatis minima labore nobis illo velit ex reiciendis, a explicabo commodi nulla at. Ab aliquam praesentium porro error explicabo soluta distinctio expedita libero quia, nulla laborum voluptate atque totam dolorem aut at iusto sint velit placeat ipsam voluptatum, repudiandae vitae odit. Nihil dolore reprehenderit, nobis eos perferendis cupiditate exercitationem accusamus adipisci laudantium sunt id! Dolor exercitationem enim aspernatur ut consequatur ratione, doloremque rem accusamus iure. Dignissimos blanditiis eius accusamus quae iusto laudantium dolores quo voluptate eligendi dolor tempora maiores aut, excepturi laborum obcaecati quam suscipit molestiae mollitia voluptas necessitatibus cumque quasi provident. Repudiandae numquam voluptates ratione illum, veritatis laudantium vero aliquam tenetur eligendi quae nostrum recusandae laboriosam voluptas voluptatem amet aliquid incidunt esse doloremque ipsum iure. Vel hic dicta eos reprehenderit quas asperiores esse a natus aliquid ratione doloremque corrupti eius, architecto molestiae molestias expedita ad nostrum quos rem deserunt fugit repudiandae reiciendis vero. Esse fugit eaque sed. Laboriosam reiciendis dignissimos dolores vero atque. Quidem tempora sint maiores? Labore esse ipsam iste dolores!</div>
-      <div className="scroll scroll2">d</div>
-      {/* <div className="scroll scroll3">d</div>
-      <div className="scroll">d</div> */}
-    </div>
+      <div className='page3'>
+        <div className="scroll flex  space-y-8 p-4">
+          <div className="relative flex ">
+            <img src={div2img} alt="Placeholder 1" className="w-40 h-40 object-cover rounded-full shadow-md mr-10 mt-11 top-10% left-0% transition-transform duration-300 hover:scale-150 hover:shadow-xl relative z-10" />
+            <p className="text-gray text-xl mt-24 right-10 relative z-0">Here is some text to go with the first image.<br/> It provides context and description related to the image.</p>
+          </div>
+          <div className="relative flex ">
+            <img src={div2img} alt="Placeholder 1" className="w-40 h-40 object-cover rounded-full shadow-md mr-10 mt-96 hover:scale-150 transition-transform duration-300 hover:shadow-xl relative z-10 " />
+            <p className=" text-gray text-xl font-bold  relative mt-[70%] right-9 ">Here is some text to go with the first image.<br/> It provides context and description related to the image.</p>
+          </div>
+          <div className="relative flex ">
+            <img src={div2img} alt="Placeholder 1" className="w-40 h-40 object-cover rounded-full shadow-md mr-10 mt-24 relative z-10 transition-transform duration-300 hover:scale-150 hover:shadow-xl" />
+            <p className="text-gray-700 text-lg font-bold relative mt-32 right-[5%] z-0 mix-blend-multiply">Here is some text to go with the first image.<br/> It provides context and description related to the image.</p>
+          </div>
+          <div className="relative flex ">
+            <img src={div2img} alt="Placeholder 1" className="w-40 h-40 object-cover rounded-full shadow-md mr-10 mt-44 relative z-10 transition-transform duration-300 hover:scale-150 hover:shadow-xl" />
+            <p className="text-gray-700 text-lg font-bold relative mt-52 right-[5%] z-0 mix-blend-multiply">Here is some text to go with the first image.<br/> It provides context and description related to the image.</p>
+          </div>
+          <div className="relative flex ">
+            <img src={div2img} alt="Placeholder 1" className="w-40 h-40 object-cover rounded-full shadow-md mr-10 mt-11 relative z-10 transition-transform duration-300 hover:scale-150 hover:shadow-xl" />
+            <p className="ml-4  text-gray-700 text-lg p-2 rounded font-bold relative mt-24 right-16">Here is some text to go with the first image.<br/> It provides context and description related to the image.</p>
+          </div>
+          <div className="relative flex items-center justify-end">
+            <p className="mr-4 left-6 text-gray-700 text-lg p-2 relative font-bold rounded">Another piece of text to describe the second image.<br/> This adds more information and detail.</p>
+            <img src={div2img2} alt="Placeholder 2" className="w-40 h-40 object-cover rounded-lg shadow-md relative z-10 transition-transform duration-300 hover:scale-150 hover:shadow-xl" />
+          </div>
+          <div className="relative ">
+            <img src={div2img} alt="Placeholder 3" className="w-40 h-40 object-cover rounded-lg shadow-md" />
+            {/* <p className="ml-4 bg-gray-800 text-white text-sm p-2 rounded">Additional text for the third image. This helps to further explain the content or message being conveyed.</p> */}
+          </div>
+          
+          <div className="relative flex items-center justify-end">
+            {/* <p className="mr-4 bg-gray-800 text-white text-sm p-2 rounded">More descriptive text for the fourth image, enhancing the viewer's understanding of the visuals.</p> */}
+            <img src={div2img2} alt="Placeholder 4" className="w-40 h-40 object-cover rounded-full shadow-md" />
+          </div>
+        </div>
+        <div className="scroll scroll2 flex flex-col space-y-8 p-4">
+          <div className="relative flex items-center">
+            <img src={div2img} alt="Placeholder 5" className="w-40 h-40 object-cover rounded-lg shadow-md" />
+            {/* <p className="ml-4 bg-gray-800 text-white text-sm p-2 rounded">Text for the fifth image, describing its context and relevance.</p> */}
+          </div>
+          <div className="relative flex items-center justify-end">
+            {/* <p className="mr-4 bg-gray-800 text-white text-sm p-2 rounded">Text for the sixth image, providing additional details and context.</p> */}
+            <img src={div2img2} alt="Placeholder 6" className="w-40 h-40 object-cover rounded-full shadow-md" />
+          </div>
+          <div className="relative flex items-center">
+            <img src={div2img} alt="Placeholder 7" className="w-40 h-40 object-cover rounded-lg shadow-md" />
+            {/* <p className="ml-4 bg-gray-800 text-white text-sm p-2 rounded">Text for the seventh image, adding more insight into its significance.</p> */}
+          </div>
+          <div className="relative flex items-center justify-end">
+            {/* <p className="mr-4 bg-gray-800 text-white text-sm p-2 rounded">Text for the eighth image, enhancing the viewer's understanding further.</p> */}
+            <img src={div2img2} alt="Placeholder 8" className="w-40 h-40 object-cover rounded-full shadow-md" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
