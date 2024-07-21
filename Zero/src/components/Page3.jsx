@@ -12,7 +12,7 @@ function Page3() {
     const bgscroll = gsap.to('.page3', {
     //  backgroundColor : 'black',
     //  color : 'white' ,
-      x: '-200vw', // Adjust as needed for the amount of movement
+      x: '-300vw', // Adjust as needed for the amount of movement
       scrollTrigger: {
         trigger: '.main3',
         start: 'top top', // Trigger when page3 is at the top of the viewport
@@ -33,6 +33,13 @@ function Page3() {
     <div className="main3">
       <div className='page3'>
         <div className="scroll flex  space-y-8 p-4">
+          <div className="scrollf">
+            <div className='scrolls'>
+            <div className='page3head1'>Reimagine The<br /> <div className='page3head2'> Style You Wear.</div></div>
+            <img src={div2img} alt="" className="scrollfimg" />
+            </div>
+            <div className="explore">Explore</div>
+          </div>
           <div className="relative flex ">
             <img src={div2img} alt="Placeholder 1" className="w-40 h-40 object-cover rounded-full shadow-md mr-10 mt-11 top-10% left-0% transition-transform duration-300 hover:scale-150 hover:shadow-xl relative z-10" />
             <p className="text-gray text-xl mt-24 right-10 relative z-0">Here is some text to go with the first image.<br/> It provides context and description related to the image.</p>
