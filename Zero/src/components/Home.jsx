@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger'; // Import only ScrollTrigger
 import div2img from '../assets/div2img1.jpeg';
 import div2img2 from '../assets/div2img2.jpeg';
+import Page3 from './Page3';
 
 // Register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
@@ -31,73 +32,9 @@ function Home() {
     });
 
   }, []);
-
-  useEffect(() => {
-    // Animation for moving .b1 upwards on hover
-    const b1HoverAnimation = gsap.to('.b1', {
-      x:-20,
-      y: -20, // Move .b1 20px upwards
-      duration: 0.3, // Animation duration
-      ease: 'power2.inOut', // Easing function for smooth animation
-      paused: true, // Start paused initially
-    });
-
-    // Mouse enter event handler for .b1
-    const handleMouseEnter = () => {
-      b1HoverAnimation.play(); // Play the animation on hover
-    };
-
-
-    // Mouse leave event handler for .b1
-    const handleMouseLeave = () => {
-      b1HoverAnimation.reverse(); // Reverse the animation on mouse leave
-    };
-
-    // Attach event listeners
-    document.querySelector('.b1')?.addEventListener('mouseenter', handleMouseEnter);
-    document.querySelector('.b1')?.addEventListener('mouseleave', handleMouseLeave);
-
-    // Clean up event listeners
-    return () => {
-      document.querySelector('.b1')?.removeEventListener('mouseenter', handleMouseEnter);
-      document.querySelector('.b1')?.removeEventListener('mouseleave', handleMouseLeave);
-      b1HoverAnimation.kill(); // Clean up animation
-    };
-  }, []);
-
-  useEffect(() => {
-    // Animation for moving .b2 southeast (downwards and to the right) on hover
-    const b2HoverAnimation = gsap.to('.b2', {
-      x: 20, // Move .b2 20px to the right
-      y: 20, // Move .b2 20px downwards
-      duration: 0.3, // Animation duration
-      ease: 'power2.inOut', // Easing function for smooth animation
-      paused: true, // Start paused initially
-    });
-
-    // Mouse enter event handler for .b2
-    const handleB2MouseEnter = () => {
-      b2HoverAnimation.play(); // Play the animation on hover
-    };
-
-    // Mouse leave event handler for .b2
-    const handleB2MouseLeave = () => {
-      b2HoverAnimation.reverse(); // Reverse the animation on mouse leave
-    };
-
-    // Attach event listeners for .b2
-    document.querySelector('.b2')?.addEventListener('mouseenter', handleB2MouseEnter);
-    document.querySelector('.b2')?.addEventListener('mouseleave', handleB2MouseLeave);
-
-    // Cleanup event listeners and animation for .b2
-    return () => {
-      document.querySelector('.b2')?.removeEventListener('mouseenter', handleB2MouseEnter);
-      document.querySelector('.b2')?.removeEventListener('mouseleave', handleB2MouseLeave);
-      b2HoverAnimation.kill(); // Clean up animation
-    };
-  }, []);
-
   return (
+    <div>
+
     <div className="h-screen bg-black flex items-center text-white">
       <div className="w-[18vh] flex justify-center">
         <div className="zero text-[25vh] border-b font-bold transform -rotate-90 text-white ml-48 tracking-wider">
@@ -148,10 +85,7 @@ function Home() {
         <div className="div2head absolute left-10 top-[167vh] text-black"><h1><span>Discover the  latest</span><br /> <span>trends in fashion and</span> <br /> <span> elevate your wardrobe with us.</span></h1></div>
         
       </div>
-
-      <div className="home3">
-        he
-      </div>
+    </div>
     </div>
   );
 }
