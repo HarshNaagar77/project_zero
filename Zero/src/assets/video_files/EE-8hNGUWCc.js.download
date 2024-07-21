@@ -1,3 +1,0 @@
-;/*FB_PKG_DELIM*/
-
-__d("mergeDeep",["mergeDeepInto","mergeHelpers"],(function(a,b,c,d,e,f,g){"use strict";function a(a,b,d){var e;a=(e=c("mergeHelpers")).normalizeMergeArg(a);b=e.normalizeMergeArg(b);e.checkMergeObjectArgs(a,b);e.checkArrayStrategy(d);e={};c("mergeDeepInto")(e,a,d);c("mergeDeepInto")(e,b,d);return e}g["default"]=a}),98);
