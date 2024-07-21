@@ -56,7 +56,7 @@ function Home() {
       },
     })
     .from('.div2head' , {
-      x : -200 ,
+      x : -400 ,
       duration : 2 ,
       scrollTrigger: {
         trigger: '.div2',
@@ -67,6 +67,7 @@ function Home() {
         scrub: true,
       },
     })
+
  
 
   }, []);
