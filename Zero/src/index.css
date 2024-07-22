@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -112,10 +113,11 @@ header{
 .page3{
   /* display: flex; */
   color: black;
+  padding-top: 60px;
 }
 .scroll{
   height: 100vh;
-  width: 300vw;
+  width: 400vw;
   /* background: rgb(191,71,71);
 background: linear-gradient(90deg, rgba(191,71,71,1) 0%, rgba(149,255,186,1) 54%, rgba(65,61,243,1) 100%); */
 }
@@ -137,4 +139,53 @@ background: linear-gradient(90deg, rgba(191,71,71,1) 0%, rgba(149,255,186,1) 54%
   border-radius: 20px;
   box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
   filter: grayscale(70%);
+}
+
+.scrollf{
+  height: 100vh;
+  width: 100vw;
+  /* background-color: orange; */
+  padding: 50px;
+  padding-right: 100px;
+}
+
+.page3head1{
+  font-size: 100px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page3head2{
+  border-bottom: 2px solid black;
+}
+
+.scrollfimg{
+
+  width: 400px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.scrolls{ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.explore{
+  border: 1px solid black;
+  /* width: 45px; */
+  font-size: 25px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 30px;
+  padding-left: 110px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.explore:hover{
+  background: black;
+  color: white;
 }

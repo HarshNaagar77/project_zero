@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger'; // Import only ScrollTrigger
-import div2img from '../assets/div2img1.jpeg';
+import div2img from '../assets/div2img1.png';
 import div2img2 from '../assets/div2img2.jpeg';
 import Page3 from './Page3';
 
