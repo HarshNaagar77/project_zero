@@ -14,7 +14,7 @@ function App() {
       <Cards></Cards>
       <Home/>
       <Page3></Page3>
-      {/* <HomePage4></HomePage4> */}
+      <HomePage4></HomePage4>
     </div>
     </>
   );

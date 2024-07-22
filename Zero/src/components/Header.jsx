@@ -25,7 +25,7 @@ function Header() {
   } , [])
   
   return (
-    <header className="bg-transparent p-4 fixed w-full pt-3">
+    <header className="navbar bg-transparent p-4 fixed w-full pt-3">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         {/* <div className="text-white font-bold text-xl ">
