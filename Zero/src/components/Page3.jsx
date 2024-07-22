@@ -10,8 +10,8 @@ function Page3() {
   useEffect(() => {
     // Animation for moving the page3 container to the left on scroll
     const bgscroll = gsap.to('.page3', {
-    //  backgroundColor : 'black',
-    //  color : 'white' ,
+     backgroundColor : 'black',
+     color : 'white' ,
       x: '-300vw', // Adjust as needed for the amount of movement
       scrollTrigger: {
         trigger: '.main3',
@@ -89,13 +89,13 @@ function Page3() {
             <img src={div2img2} alt="Placeholder 2" className="p3i w-40 h-40 object-cover rounded-lg shadow-md relative z-10 transition-transform duration-300 hover:scale-150 hover:shadow-xl" />
           </div>
           <div className="relative ">
-            <img src={div2img} alt="Placeholder 3" className="p3i w-40 h-40 object-cover rounded-lg shadow-md" />
-            {/* <p className="ml-4 bg-gray-800 text-white text-sm p-2 rounded">Additional text for the third image. This helps to further explain the content or message being conveyed.</p> */}
+            <img src={div2img} alt="Placeholder 3" className="p3i w-40 h-40 object-cover rounded-lg shadow-md relative z-10 transition-transform duration-300 hover:scale-150 hover:shadow-xl" />
+            <p className="mr-4 bottom-36 left-6 text-gray-700 text-lg p-2 relative font-bold rounded">Additional text for the third image.<br/> This helps to further explain the content</p>
           </div>
           
           <div className="relative flex items-center justify-end">
             {/* <p className="mr-4 bg-gray-800 text-white text-sm p-2 rounded">More descriptive text for the fourth image, enhancing the viewer's understanding of the visuals.</p> */}
-            <img src={div2img2} alt="Placeholder 4" className="p3i w-40 h-40 object-cover rounded-full shadow-md" />
+            <img src={div2img2} alt="Placeholder 4" className="p3i w-40 h-40 object-cover rounded-full shadow-md relative z-10 transition-transform duration-300 hover:scale-150 hover:shadow-xl" />
           </div>
         </div>
         <div className="scroll scroll2 flex flex-col space-y-8 p-4">

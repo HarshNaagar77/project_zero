@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Cards from './components/Cards';
 import Page3 from './components/Page3'
+import HomePage4 from './components/HomePage4';
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <Cards></Cards>
       <Home/>
       <Page3></Page3>
-
+      {/* <HomePage4></HomePage4> */}
     </div>
     </>
   );
