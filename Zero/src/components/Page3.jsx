@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import  { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import div2img from '../assets/div2img1.png'
@@ -10,8 +10,8 @@ function Page3() {
   useEffect(() => {
     // Animation for moving the page3 container to the left on scroll
     const bgscroll = gsap.to('.page3', {
-    //  backgroundColor : 'black',
-    //  color : 'white' ,
+     backgroundColor : 'black',
+     color : 'white' ,
       x: '-300vw', // Adjust as needed for the amount of movement
       scrollTrigger: {
         trigger: '.main3',
