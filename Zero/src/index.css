@@ -206,3 +206,7 @@ background: linear-gradient(90deg, rgba(191,71,71,1) 0%, rgba(149,255,186,1) 54%
 .pin-spacer{
   padding-bottom: 0;
 }
+
+.about{
+  overflow: hidden;
+}

@@ -3,7 +3,7 @@ import Header from './Header';
 
 const About = () => {
   return (
-    <div className='bg-black-800 text-white'>
+    <div className=' about bg-black-800 text-white'>
       <Header></Header>
       <div className="mx-auto max-w-7xl px-4">
         <div className="flex flex-col space-y-8 pb-10 pt-12 md:pt-24">
