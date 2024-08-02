@@ -6,18 +6,17 @@ import About from './components/About.jsx'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 const router = createBrowserRouter([
-  {
-    path: '/',
+  { 
+    path: '/',   
     element: <App />,
   },
   {
     path: '/about',
-    element: <About />,
+    element: <About />,       
   },
-  
+   
   
 ])
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider  router={router}></RouterProvider>
 )

@@ -8,7 +8,7 @@ function HomePage4() {
       <div className="relative flex-1 flex justify-center items-center">
         <img src={t1} alt="" className="relative mb-44 h-auto max-h-full transform -rotate-[30deg] right-36" />
         <h1 className="absolute top-1/4 mt-20 right-20 text-center font-extrabold text-6xl leading-tight transition-transform duration-300 ease-in-out">
-          <span className="text-white hover:scale-110 hover:underline">This is the</span> <span className="text-black hover:scale-110 hover:underline">new Gen</span> 
+          <span className="text-white hover:scale-110 hover:underline">This is the</span> <span className="text-black hover:scale-110 hover:underline">new Gen</span>
         </h1>
       </div>
       <div className="relative flex-1 flex justify-center items-center">
@@ -19,6 +19,6 @@ function HomePage4() {
       </div>
     </div>
   );
-} 
+}
 
 export default HomePage4
