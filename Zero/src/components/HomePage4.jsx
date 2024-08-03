@@ -16,6 +16,7 @@ function HomePage4() {
         <h1 className="absolute top-1/4 right-48 text-center font-extrabold text-5xl leading-tight transition-transform duration-300 ease-in-out">
           <span className="text-black hover:scale-110 hover:underline">Experience</span><span className="text-white hover:scale-110 hover:underline">e the Future Now</span>
         </h1>
+        
       </div>
     </div>
   );
